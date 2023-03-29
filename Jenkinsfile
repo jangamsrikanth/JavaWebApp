@@ -12,7 +12,7 @@ pipeline {
   stages {
     stage('checkout') {
       steps {
-        git branch: 'main', url: 'https://github.com/jangamsrikanth/JavaWebApp'
+        git branch: 'main', url: 'https://github.com/Venna12/taxi-booking'
 
       }
     }

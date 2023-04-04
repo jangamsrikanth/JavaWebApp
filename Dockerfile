@@ -5,7 +5,7 @@ FROM eclipse-temurin:17-jdk-focal
 LABEL maintainer="Palak Bhawsar" 
 
 #Copying Jar file from target folder                                                                                       
-COPY target/web-services.jar web-services.jar  
+COPY web-services.jar .  
 
 #Expose app to outer world on this port                                                                                                                                                                                                                                                                          
 EXPOSE 8081   
